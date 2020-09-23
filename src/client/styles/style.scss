@@ -1,0 +1,80 @@
+body {
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    background: #f23557;
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+}
+
+.headline {
+    font-size: 100px;
+}
+
+.location, .departing, #countdown-date, #temp-high, #temp-low {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.entry {
+    background: rgba(59, 74, 107, .4);
+    margin-bottom: 20px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    font-size: 27px;
+}
+
+input {
+    height: 60px;
+    width: 320px;
+    background: #22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
